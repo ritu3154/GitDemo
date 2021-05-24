@@ -25,6 +25,7 @@ public class FreeCrm {
 			driver.get("https://ui.cogmento.com/");
 			
 			System.out.println("happy mothers day");
+			System.out.println("happy fathers day");
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
