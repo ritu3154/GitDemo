@@ -25,6 +25,11 @@ public class ClassTest {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			
 			driver.get("http://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do");
+			
+			System.out.println("hello my name is");
+			System.out.println("ritu");
+			
+			
 			searchCource();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
