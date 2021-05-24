@@ -14,6 +14,7 @@ public class FreeCrm {
 	WebDriver driver;
 	JavascriptExecutor jse;
 
+
 	public void invokeBrowser() {
 		try {
 			System.setProperty("webdriver.chrome.driver", "G:\\Selenium\\Chrome Driver\\chromedriver.exe");
@@ -22,6 +23,9 @@ public class FreeCrm {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.get("https://ui.cogmento.com/");
+			
+			System.out.println("happy mothers day");
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
